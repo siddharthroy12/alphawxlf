@@ -18,7 +18,7 @@ export default function RootLayout({
           <CssBaseline />
           <Page>
             <Navigation />
-            {children}
+            <Page.Content>{children}</Page.Content>
           </Page>
         </GeistProvider>
       </body>
